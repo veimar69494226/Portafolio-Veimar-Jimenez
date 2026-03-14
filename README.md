@@ -25,7 +25,7 @@ npm install
 ```bash
 npm start
 ```
-
+----
 ### 4. Build for Production
 
 ```bash

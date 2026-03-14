@@ -22,7 +22,7 @@ import sqlserve from './assets/tech_logo/logo_sqlserve.png';
 import xampp from './assets/tech_logo/logo_xampp.png';
 import flask from './assets/tech_logo/logo_flask.png';
 import dbeaver from './assets/tech_logo/logo_dbeaver.png';
-import Bootstrap from './assets/tech_logo/Bootstrap.png';
+import Bootstrap from './assets/tech_logo/bootstrap.png';
 import apache from './assets/tech_logo/logo_apache.png';
 import php from './assets/tech_logo/logo_php.png';
 import jupyter from './assets/tech_logo/logo_jupyter.png';

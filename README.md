@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> b5a78360793a3cdba95a524bb654e02aa369b414
 ## 🛠️ Tech Stack
 
 - ⚛️ React.js
@@ -12,7 +15,16 @@
 - Clean and modular React components 🧩
 - Easy to customize with Tailwind utility classes 🎯
 - Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
+<<<<<<< HEAD
 ````
+=======
+
+
+## 🧑‍💻 How to Use
+
+### 1. Clone the Repo
+
+>>>>>>> b5a78360793a3cdba95a524bb654e02aa369b414
 
 ### 2. Install Dependencies
 

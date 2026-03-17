@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   const navItems = [
-    { name: "Sobre mí", id: "sobre mi" },
+    { name: "Sobre mí", id: "sobre-mi" },
     { name: "Habilidades", id: "habilidades" },
     { name: "Experiencia", id: "experiencia" },
     { name: "Proyectos", id: "proyectos" },

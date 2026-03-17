@@ -6,8 +6,8 @@ import profileImage from '../../assets/veimar foto 2026.png';
 const About = () => {
   return (
     <section
-      id="sobre mi"
-      className="py-6 px-[7vw] md:px-[7vw] lg:px-[12vw] xl:px-[14vw] font-sans mt-16 md:mt-24 lg:mt-28"
+      id="sobre-mi"
+      className="pt-[110px] md:pt-[120px] pb-10 px-[7vw] md:px-[7vw] lg:px-[12vw] xl:px-[14vw] font-sans"
     >
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12 lg:gap-16">
         {/* Left Side */}
@@ -78,7 +78,6 @@ const About = () => {
         {/* Right Side */}
         <div className="w-full md:w-[44%] flex justify-center md:justify-end md:pl-6 lg:pl-10">
           <div className="relative w-56 h-72 sm:w-72 sm:h-[28rem] md:w-[24rem] md:h-[31rem] lg:w-[25rem] lg:h-[32rem]">
-            {/* Brillo de fondo azul */}
             <div className="absolute inset-0 rounded-[2.8rem] bg-gradient-to-br from-blue-500/30 via-sky-400/10 to-cyan-300/25 blur-2xl scale-105" />
 
             <Tilt
@@ -90,7 +89,6 @@ const About = () => {
               transitionSpeed={1000}
               gyroscope={true}
             >
-              {/* Borde interno sutil */}
               <div className="absolute inset-[10px] rounded-[2.2rem] border border-blue-300/20 pointer-events-none z-10" />
 
               <img

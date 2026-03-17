@@ -5,22 +5,38 @@
 @tailwind utilities;
 
 * {
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050414;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #050414;
+}
+
 @layer utilities {
-    .clip-path-custom {
-      clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 95%, 0 100%);
-    }
-    .clip-path-custom-2 {
-        clip-path: polygon(0 0, 100% 0, 100% 98%, 25% 95%, 0 100%);
-      }
-    .clip-path-custom-3 {
-        clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
-      }
+  .clip-path-custom {
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 95%, 0 100%);
   }
-  
+
+  .clip-path-custom-2 {
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 25% 95%, 0 100%);
+  }
+
+  .clip-path-custom-3 {
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
+  }
+}
